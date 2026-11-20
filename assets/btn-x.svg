@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="64" viewBox="0 0 260 64" fill="none" role="img">
+<title>Follow on X</title><style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif;}
+.mono{font-family:'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;}
+
+@media (prefers-reduced-motion: reduce){*{animation-duration:0s!important;animation-iteration-count:1!important;}}
+</style>
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+  <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .09 0"/>
+</filter>
+<linearGradient id="stroke" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".24"/><stop offset=".45" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.5" cy="1.2" r=".95">
+  <stop offset="0" stop-color="#8E8E93" stop-opacity="0.6"/><stop offset=".42" stop-color="#3A3A3C" stop-opacity="0.180"/><stop offset="1" stop-color="#3A3A3C" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8E8E93"/><stop offset="1" stop-color="#3A3A3C"/></linearGradient>
+<linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="surf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111118"/><stop offset="1" stop-color="#09090D"/></linearGradient>
+<clipPath id="clip"><rect x="0" y="0" width="260" height="64" rx="32"/></clipPath></defs>
+<g clip-path="url(#clip)">
+  <rect x="0" y="0" width="260" height="64" fill="url(#surf)"/>
+  <rect x="0" y="0" width="260" height="64" fill="url(#glow)"/>
+  <rect x="0" y="0" width="260" height="64" filter="url(#grain)" opacity=".55"/>
+</g>
+<g transform="translate(66.0 21) scale(.92)"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#fff"/></g>
+<text x="100.0" y="38" font-size="17" font-weight="600" letter-spacing="-.2" fill="#F5F5F7">Follow on X</text>
+<rect x="0.5" y="0.5" width="259" height="63" rx="31.5" stroke="url(#stroke)"/>
+<rect x="46.8" y="0" width="166.4" height="1" fill="url(#hl)"/>
+</svg>

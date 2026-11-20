@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" fill="none" role="img">
+<title>Autonomous Analyst — Plans, writes and runs its own analysis code — sandboxed, self-correcting, streamed.</title><style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif;}
+.mono{font-family:'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;}
+
+.draw{stroke-dasharray:100;stroke-dashoffset:100;animation:draw 3.2s cubic-bezier(.6,0,.2,1) infinite;}
+@keyframes draw{0%{stroke-dashoffset:100}55%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:-100}}
+.blink{animation:blink 2s ease-in-out infinite;} @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.scan{animation:scan 3s ease-in-out infinite alternate;} @keyframes scan{from{transform:translateY(0)}to{transform:translateY(144px)}}
+.sway{transform-box:fill-box;transform-origin:50% 100%;animation:sway 5s ease-in-out infinite;} @keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+.sway2{animation:s2 4s ease-in-out infinite;} @keyframes s2{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+.sway3{animation:s3 4s ease-in-out infinite;} @keyframes s3{0%,100%{transform:translateX(0)}50%{transform:translateX(-6px)}}
+.prop{transform-box:fill-box;transform-origin:center;animation:prop .25s linear infinite;} @keyframes prop{50%{transform:scaleX(.35)}}
+.breathe{transform-box:fill-box;transform-origin:center;animation:br 2.6s ease-in-out infinite;} @keyframes br{0%,100%{transform:scale(.85);opacity:.12}50%{transform:scale(1.3);opacity:.35}}
+.grow{transform-box:fill-box;transform-origin:bottom;animation:grow 4s cubic-bezier(.2,.8,.2,1) infinite;} @keyframes grow{0%{transform:scaleY(.1)}30%,100%{transform:scaleY(1)}}
+
+@media (prefers-reduced-motion: reduce){*{animation-duration:0s!important;animation-iteration-count:1!important;}}
+</style>
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+  <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .09 0"/>
+</filter>
+<linearGradient id="stroke" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".24"/><stop offset=".45" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.92" cy="0.02" r=".95">
+  <stop offset="0" stop-color="#FF375F" stop-opacity="0.36"/><stop offset=".42" stop-color="#FF9F0A" stop-opacity="0.108"/><stop offset="1" stop-color="#FF9F0A" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF375F"/><stop offset="1" stop-color="#FF9F0A"/></linearGradient>
+<linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="surf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111118"/><stop offset="1" stop-color="#09090D"/></linearGradient>
+<clipPath id="clip"><rect x="0" y="0" width="600" height="340" rx="28"/></clipPath></defs>
+<g clip-path="url(#clip)">
+  <rect x="0" y="0" width="600" height="340" fill="url(#surf)"/>
+  <rect x="0" y="0" width="600" height="340" fill="url(#glow)"/>
+  <rect x="0" y="0" width="600" height="340" filter="url(#grain)" opacity=".55"/>
+</g>
+<text x="40" y="58" class="mono" font-size="12" letter-spacing="2.4" fill="url(#acc)">05 — AGENTIC AI</text>
+<g transform="translate(398 30)">
+<g transform="translate(86 76)">
+  <ellipse rx="76" ry="26" stroke="#fff" stroke-opacity=".18" stroke-dasharray="2 5"/>
+  <ellipse rx="76" ry="26" transform="rotate(60)" stroke="#fff" stroke-opacity=".12" stroke-dasharray="2 5"/>
+  <ellipse rx="76" ry="26" transform="rotate(-60)" stroke="#fff" stroke-opacity=".12" stroke-dasharray="2 5"/>
+  <circle r="26" fill="url(#acc)" opacity=".18" class="breathe"/>
+  <circle r="15" fill="url(#acc)"/>
+  <circle r="5" fill="#fff"><animateMotion dur="5s" repeatCount="indefinite" path="M76 0 A76 26 0 1 1 -76 0 A76 26 0 1 1 76 0"/></circle>
+  <g transform="rotate(60)"><circle r="4" fill="#fff" opacity=".8"><animateMotion dur="7s" repeatCount="indefinite" path="M-76 0 A76 26 0 1 1 76 0 A76 26 0 1 1 -76 0"/></circle></g>
+  <g transform="rotate(-60)"><circle r="4" fill="#fff" opacity=".6"><animateMotion dur="9s" repeatCount="indefinite" path="M76 0 A76 26 0 1 0 -76 0 A76 26 0 1 0 76 0"/></circle></g>
+</g></g>
+<text x="38" y="190" font-size="36" font-weight="700" letter-spacing="-1.2" fill="#F5F5F7">Autonomous Analyst</text>
+<text x="40" y="226" font-size="16.5" fill="#A1A1AA">Plans, writes and runs its own analysis code —</text><text x="40" y="252" font-size="16.5" fill="#A1A1AA">sandboxed, self-correcting, streamed.</text>
+<rect x="40" y="274" width="66.5" height="30" rx="15.0" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".11"/><text x="54.0" y="293.7" font-size="13" font-weight="500" fill="#D4D4D8">Python</text><rect x="114.47999999999999" y="274" width="66.5" height="30" rx="15.0" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".11"/><text x="128.5" y="293.7" font-size="13" font-weight="500" fill="#D4D4D8">Agents</text><rect x="188.95999999999998" y="274" width="66.5" height="30" rx="15.0" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".11"/><text x="203.0" y="293.7" font-size="13" font-weight="500" fill="#D4D4D8">Docker</text>
+<g transform="translate(540 289)">
+  <circle r="21" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".16"/>
+  <path d="M-5.5 5.5 L5.5 -5.5 M-3 -5.5 H5.5 V3" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="0.5" y="0.5" width="599" height="339" rx="27.5" stroke="url(#stroke)"/>
+<rect x="108.0" y="0" width="384.0" height="1" fill="url(#hl)"/>
+</svg>

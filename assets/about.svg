@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none" role="img">
+<title>About Ravi Deo</title><style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif;}
+.mono{font-family:'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;}
+
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 3.6s cubic-bezier(0,0,.2,1) infinite;}
+@keyframes ring{0%{transform:scale(.3);opacity:.8}100%{transform:scale(1.6);opacity:0}}
+.spark{transform-box:fill-box;transform-origin:center;animation:spark 6s ease-in-out infinite;}
+@keyframes spark{0%,100%{transform:rotate(0) scale(1)}50%{transform:rotate(45deg) scale(.85)}}
+
+@media (prefers-reduced-motion: reduce){*{animation-duration:0s!important;animation-iteration-count:1!important;}}
+</style>
+<defs>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+  <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .09 0"/>
+</filter>
+<linearGradient id="stroke0" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".24"/><stop offset=".45" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/>
+</linearGradient>
+<radialGradient id="glow0" cx="0.95" cy="0.05" r=".95">
+  <stop offset="0" stop-color="#5E5CE6" stop-opacity="0.3"/><stop offset=".42" stop-color="#64D2FF" stop-opacity="0.090"/><stop offset="1" stop-color="#64D2FF" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="acc0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5E5CE6"/><stop offset="1" stop-color="#64D2FF"/></linearGradient>
+<linearGradient id="hl0" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="surf0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111118"/><stop offset="1" stop-color="#09090D"/></linearGradient>
+<clipPath id="clip0"><rect x="0" y="0" width="700" height="440" rx="26"/></clipPath>
+<linearGradient id="stroke1" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".24"/><stop offset=".45" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/>
+</linearGradient>
+<radialGradient id="glow1" cx="1" cy="0" r=".95">
+  <stop offset="0" stop-color="#BF5AF2" stop-opacity="0.3"/><stop offset=".42" stop-color="#FF6482" stop-opacity="0.090"/><stop offset="1" stop-color="#FF6482" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="acc1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#BF5AF2"/><stop offset="1" stop-color="#FF6482"/></linearGradient>
+<linearGradient id="hl1" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="surf1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111118"/><stop offset="1" stop-color="#09090D"/></linearGradient>
+<clipPath id="clip1"><rect x="720" y="0" width="480" height="210" rx="26"/></clipPath>
+<linearGradient id="stroke2" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".24"/><stop offset=".45" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/>
+</linearGradient>
+<radialGradient id="glow2" cx="1" cy="0" r=".95">
+  <stop offset="0" stop-color="#30D158" stop-opacity="0.3"/><stop offset=".42" stop-color="#64D2FF" stop-opacity="0.090"/><stop offset="1" stop-color="#64D2FF" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="acc2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#30D158"/><stop offset="1" stop-color="#64D2FF"/></linearGradient>
+<linearGradient id="hl2" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="surf2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111118"/><stop offset="1" stop-color="#09090D"/></linearGradient>
+<clipPath id="clip2"><rect x="720" y="230" width="230" height="210" rx="26"/></clipPath>
+<linearGradient id="stroke3" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".24"/><stop offset=".45" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/>
+</linearGradient>
+<radialGradient id="glow3" cx="1" cy="0" r=".95">
+  <stop offset="0" stop-color="#FF9F0A" stop-opacity="0.3"/><stop offset=".42" stop-color="#FF375F" stop-opacity="0.090"/><stop offset="1" stop-color="#FF375F" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="acc3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF9F0A"/><stop offset="1" stop-color="#FF375F"/></linearGradient>
+<linearGradient id="hl3" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="surf3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111118"/><stop offset="1" stop-color="#09090D"/></linearGradient>
+<clipPath id="clip3"><rect x="970" y="230" width="230" height="210" rx="26"/></clipPath><linearGradient id="hGrad" x1="0" y1="90" x2="0" y2="190" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#B4B4C4"/></linearGradient></defs>
+<g clip-path="url(#clip0)">
+  <rect x="0" y="0" width="700" height="440" fill="url(#surf0)"/>
+  <rect x="0" y="0" width="700" height="440" fill="url(#glow0)"/>
+  <rect x="0" y="0" width="700" height="440" filter="url(#grain)" opacity=".55"/>
+</g><g clip-path="url(#clip1)">
+  <rect x="720" y="0" width="480" height="210" fill="url(#surf1)"/>
+  <rect x="720" y="0" width="480" height="210" fill="url(#glow1)"/>
+  <rect x="720" y="0" width="480" height="210" filter="url(#grain)" opacity=".55"/>
+</g><g clip-path="url(#clip2)">
+  <rect x="720" y="230" width="230" height="210" fill="url(#surf2)"/>
+  <rect x="720" y="230" width="230" height="210" fill="url(#glow2)"/>
+  <rect x="720" y="230" width="230" height="210" filter="url(#grain)" opacity=".55"/>
+</g><g clip-path="url(#clip3)">
+  <rect x="970" y="230" width="230" height="210" fill="url(#surf3)"/>
+  <rect x="970" y="230" width="230" height="210" fill="url(#glow3)"/>
+  <rect x="970" y="230" width="230" height="210" filter="url(#grain)" opacity=".55"/>
+</g>
+<!-- big tile -->
+<text x="48" y="66" class="mono" font-size="12" letter-spacing="2.6" fill="#64D2FF">ABOUT</text>
+<text x="46" y="134" font-size="44" font-weight="700" letter-spacing="-1.6" fill="url(#hGrad)">Engineer at the edge of</text>
+<text x="46" y="186" font-size="44" font-weight="700" letter-spacing="-1.6" fill="url(#hGrad)">AI, vision &amp; control.</text>
+<text x="48" y="246" font-size="18" fill="#A1A1AA">Final-year CS student who likes turning research ideas</text><text x="48" y="275" font-size="18" fill="#A1A1AA">into software that actually runs — sign language read</text><text x="48" y="304" font-size="18" fill="#A1A1AA">straight from a webcam, a digital twin that forecasts</text><text x="48" y="333" font-size="18" fill="#A1A1AA">your week, and controllers that land drones on decks</text><text x="48" y="362" font-size="18" fill="#A1A1AA">that won&#x27;t sit still.</text>
+<line x1="48" y1="388" x2="652" y2="388" stroke="#fff" stroke-opacity=".07"/>
+<text x="48" y="414" class="mono" font-size="12" fill="#71717A">› python · typescript · c++</text>
+<text x="652" y="414" text-anchor="end" class="mono" font-size="12" fill="#71717A">B.Tech CSE · research co-author</text>
+
+<!-- focus -->
+<text x="768" y="50" class="mono" font-size="12" letter-spacing="2.6" fill="#BF5AF2">FOCUS</text>
+<circle cx="768" cy="86" r="5" fill="#64D2FF"/><circle cx="768" cy="86" r="10" fill="#64D2FF" opacity=".18"/><text x="788" y="92" font-size="17" font-weight="600" fill="#F5F5F7">Computer vision</text><text x="1156" y="92" text-anchor="end" class="mono" font-size="12" fill="#71717A">on-device perception</text><line x1="768" y1="107" x2="1156" y2="107" stroke="#fff" stroke-opacity=".06"/><circle cx="768" cy="126" r="5" fill="#BF5AF2"/><circle cx="768" cy="126" r="10" fill="#BF5AF2" opacity=".18"/><text x="788" y="132" font-size="17" font-weight="600" fill="#F5F5F7">Agentic AI &amp; RAG</text><text x="1156" y="132" text-anchor="end" class="mono" font-size="12" fill="#71717A">LLMs that use tools</text><line x1="768" y1="147" x2="1156" y2="147" stroke="#fff" stroke-opacity=".06"/><circle cx="768" cy="166" r="5" fill="#FFD60A"/><circle cx="768" cy="166" r="10" fill="#FFD60A" opacity=".18"/><text x="788" y="172" font-size="17" font-weight="600" fill="#F5F5F7">Control &amp; robotics</text><text x="1156" y="172" text-anchor="end" class="mono" font-size="12" fill="#71717A">learning-aided UAV control</text>
+
+<!-- based in -->
+<g transform="translate(888 290)">
+  <circle r="34" class="ring" stroke="#30D158" stroke-width="1.5"/>
+  <circle r="34" class="ring" style="animation-delay:1.2s" stroke="#30D158" stroke-width="1.5"/>
+  <circle r="34" class="ring" style="animation-delay:2.4s" stroke="#30D158" stroke-width="1.5"/>
+  <circle r="5" fill="#30D158"/>
+</g>
+<text x="766" y="280" class="mono" font-size="12" letter-spacing="2.6" fill="#30D158">BASED IN</text>
+<text x="766" y="384" font-size="26" font-weight="700" letter-spacing="-.6" fill="#F5F5F7">Greater Noida</text>
+<text x="766" y="410" class="mono" font-size="12" fill="#71717A">India · UTC+5:30</text>
+
+<!-- open to -->
+<text x="1016" y="280" class="mono" font-size="12" letter-spacing="2.6" fill="#FF9F0A">OPEN TO</text>
+<g transform="translate(1150 286)"><path class="spark" d="M0 -18 C2 -4 4 -2 18 0 C4 2 2 4 0 18 C-2 4 -4 2 -18 0 C-4 -2 -2 -4 0 -18Z" fill="url(#acc3)"/></g>
+<text x="1016" y="356" font-size="26" font-weight="700" letter-spacing="-.6" fill="#F5F5F7">Collabs &amp;</text>
+<text x="1016" y="386" font-size="26" font-weight="700" letter-spacing="-.6" fill="#F5F5F7">research</text>
+<text x="1016" y="410" class="mono" font-size="12" fill="#71717A">DMs open on X</text>
+<rect x="0.5" y="0.5" width="699" height="439" rx="25.5" stroke="url(#stroke0)"/>
+<rect x="126.0" y="0" width="448.0" height="1" fill="url(#hl0)"/><rect x="720.5" y="0.5" width="479" height="209" rx="25.5" stroke="url(#stroke1)"/>
+<rect x="806.4" y="0" width="307.2" height="1" fill="url(#hl1)"/><rect x="720.5" y="230.5" width="229" height="209" rx="25.5" stroke="url(#stroke2)"/>
+<rect x="761.4" y="230" width="147.2" height="1" fill="url(#hl2)"/><rect x="970.5" y="230.5" width="229" height="209" rx="25.5" stroke="url(#stroke3)"/>
+<rect x="1011.4" y="230" width="147.2" height="1" fill="url(#hl3)"/>
+</svg>
